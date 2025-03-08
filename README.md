@@ -24,8 +24,8 @@ Ensure you have the following installed:
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/iptv-m3u-editor.git
-   cd iptv-m3u-editor
+   https://github.com/chesko21/iptv_edit.git
+   cd iptv_edit
    ```
 
 2. Create and activate a virtual environment (optional but recommended):
@@ -73,6 +73,13 @@ If you want to package the application into an executable:
 ```sh
 pyinstaller --onefile --windowed main.py
 ```
+
+or
+
+```sh
+pyinstaller --onefile --add-data "icons;icons" main.py
+```
+
 
 For mobile deployment using Buildozer:
 
