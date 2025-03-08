@@ -1,0 +1,5 @@
+kivy
+PySide6
+chardet
+kivy.deps.angle
+kivy.deps.glew
